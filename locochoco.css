@@ -1,0 +1,423 @@
+
+	/* --- LOCOCHOCO : LA PIEUVRE DES MATHS ---
+	 
+	   Licence	: CC BY International 4.0
+	   Auteur	: School(Re)mix
+	   Date	: 2014
+	
+	---------------------------------------- */
+
+@charset "UTF-8";
+/* Locochoco */
+
+/* TEST */
+#test {
+	background-color: #6CF;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+}
+/* */
+
+HTML { height: 100%; }
+
+BODY {
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: transparent url(../img/bg.png) top left repeat;
+}
+
+#tableau { margin: 20px; }
+TABLE { 
+	width: 80%;
+	padding:0; 
+	border: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+TD.tableau_titre_gauche, TD.tableau_titre_centre, TD.tableau_titre_droite {
+	background-color: #690;
+	padding: 10px 0px;
+	text-align: center;
+}
+TD.tableau_titre_gauche { border-radius: 10px 0px 0px 10px; }
+TD.tableau_titre_droite { border-radius: 0px 10px 10px 0px; }
+
+TD.tableau_texte_gauche, TD.tableau_texte_centre, TD.tableau_texte_droite {
+	border-bottom: 1px solid #FFF;
+	padding: 20px 0px;
+}
+TD.tableau_texte_gauche {  }
+TD.tableau_texte_droite {  }
+TD { padding: 3px 10px; }
+
+.couleur { 
+	background-color: #FC0;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px; 
+}
+
+A, A:active, A:visited, A:hover { text-decoration: none; }
+
+/* MACRO */
+#ariane {  
+	width: auto;
+	color: #FFF;
+	background-color: #333;
+	font-size: 0.9em;
+	padding: 1em;
+	text-transform: uppercase;
+}
+#ariane A, #ariane A:active, #ariane A:visited, #ariane A:hover {
+	text-decoration: none;
+	color: #FFF;
+	background-color: #484848;
+	border-radius: 10px;
+	padding: 10px;
+}
+#ariane A:hover {
+	text-decoration: none;
+	background-color: #F60;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#page {  
+	height: 100%;
+	width: 100%;
+	position: relative;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	/*overflow-y: hidden;*/
+	background: transparent url(../img/pieuvre.png) bottom right no-repeat;
+}
+#page2 {  
+	height: 100%;
+	width: 100%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#pied { /* pied transparent */
+	position: absolute !important;
+	bottom: 0;
+	left: 0;
+}
+
+/* PAGE */
+#classe {  
+	width: 100%;
+	height: 100%;
+	font-size: 5em;
+	color: #FFF;
+	/*overflow-y: hidden;*/
+}
+
+H1.bloc {  
+	display: block;
+	text-align: center;
+	vertical align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFF;
+	
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+#param { 
+	padding: 10px;
+	color: #FFF;
+	font-size: 2em;
+}
+
+/* case à cocher */
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../img/check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background:url(../img/check_radio_sheet.png) -19px top no-repeat;
+}
+
+/* bouton select */
+.select-style {
+	margin-left: auto;
+	margin-right: auto;
+    border: 1px solid transparent;
+    width: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fafafa url("../img/select.png") no-repeat 98% 50%;
+}
+
+.select-style select {
+	color: #6CF;
+	font-size: 1.2em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 5px 8px;
+    width: 110%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+}
+/**/
+
+#input { 
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 100%;
+	text-align: right;
+}
+INPUT.submit {
+	border:0;
+	background-color: #6C0;
+	border-radius: 10px;
+	padding: 10px 20px;
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 2em;
+}
+
+/* EXERCICES */
+			
+#exercice {
+	width: 80%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#exo_titre {
+	width: auto;
+	padding: 0.5em 1em;
+	color: #FFF;
+	text-align: left;
+	background-color: #906;
+	border-radius: 10px;
+	padding: 10px;
+	height: 50px;
+}
+#exo_titre_complet {
+	float: left;
+	background-color: #603;
+	border-radius: 20px;
+	padding: 5px 10px;
+	width: auto;
+	color: #906;
+}
+#exo_titre_compteur {
+	float: right;
+	background-color: #603;
+	border-radius: 20px;
+	padding: 5px 10px;
+	color: #906;
+}
+
+#exo_texte {
+	width: auto;
+	background-color: #FC0;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 2em;
+	margin-top: 30px;	
+}
+.exo_texte_complet {
+	
+}
+.exo_texte_input {
+	
+}
+INPUT.reponse {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: 2px solid #FFF;
+	color: #333;
+	font-size: 0.8em;
+	padding: 0px 5px 10px 5px;
+	width: 150px;
+	background-color: #FFF;
+	text-align: center;
+	border-radius: 10px;
+}
+INPUT.correct { /* vert */
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: 2px solid #090;
+	color: #090;
+	font-size: 0.8em;
+	padding: 0px 5px 10px 5px;
+	width: 100px;
+	background-color: #9C0;
+	text-align: center;
+	border-radius: 10px;
+}
+INPUT.faux { /* orange */
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: 2px solid #F60;
+	color: #F60;
+	font-size: 0.8em;
+	padding: 0px 5px 10px 5px;
+	width: 100px;
+	background-color: #F90;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#exo_bouton {
+	margin-top: 30px;
+}
+#exo_bouton_resultat {
+	float: left;
+	width: 100%;
+}
+#exo_bouton_right { float: right; }
+#exo_bouton_left { float: left; }
+
+INPUT.submit_exo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #09C;
+	font-size: 1em;
+	padding: 0px 20px 5px 20px;
+	width: auto;
+	background-color: #333;
+	text-align: center;
+	border-radius: 10px;
+	border: 0px;
+}
+INPUT.submit_exo:hover {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #333;
+	font-size: 1em;
+	padding: 0px 20px 5px 20px;
+	width: auto;
+	background-color: #09C;
+	text-align: center;
+	border-radius: 10px;
+	border: 0px;
+}
+IMG.resultat_image {
+	float: left;
+}
+.couleur_correct {
+	border-radius: 10px;
+	background-color: #090;
+	padding: 5px 20px;
+}
+.couleur_faux {
+	border-radius: 10px;
+	background-color: #F60;
+	padding: 5px 20px;
+}
+
+/* BILAN */
+TD.bilan_domaine {
+	border-radius: 10px;
+	background-color: #CCC;
+	padding: 5px 20px;
+	color: #333;
+}
+TD.bilan_type {
+	border-radius: 10px;
+	background-color: #DDD;
+	padding: 5px 20px;
+	color: #333;
+}
+TD.bilan_correct {
+	border-radius: 10px;
+	background-color: #6C0;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: right;
+}
+TD.bilan_faux {
+	border-radius: 10px;
+	background-color: #F00;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: right;
+}
+TD.bilan_correct_total {
+	border-radius: 10px;
+	background-color: #390;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: right;
+}
+TD.bilan_faux_total {
+	border-radius: 10px;
+	background-color: #903;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: right;
+}
+TD.bilan_reussite_vert {
+	border-radius: 10px;
+	background-color: #6C0;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: right;
+}
+TD.bilan_reussite_orange {
+	border-radius: 10px;
+	background-color: #F90;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: right;
+}
+TD.bilan_reussite_rouge {
+	border-radius: 10px;
+	background-color: #F00;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: right;
+}
+TD.bilan_reussite_total_vert {
+	border-radius: 10px;
+	background-color: #390;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: right;
+}
+TD.bilan_reussite_total_orange {
+	border-radius: 10px;
+	background-color: #F60;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: right;
+}
+TD.bilan_reussite_total_rouge {
+	border-radius: 10px;
+	background-color: #903;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: right;
+}
+TD.bilan_titre {
+	border-radius: 10px;
+	background-color: #333;
+	padding: 5px 20px;
+	color: #FFF;
+	text-align: center;
+}
+
