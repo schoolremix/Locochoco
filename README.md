@@ -3,7 +3,7 @@ Locochoco : la pieuvre des maths
 
 Locochoco est un exerciseur de CALCUL MENTAL pour l'école élémentaire. Les objectifs pédagogiques sont tirés des <a href="http://www.education.gouv.fr/cid38/horaires-et-programmes.html" target="_blank">Programmes officiels du Ministère de l'Education Nationale</a>.
 
-===============[ <a href="http://schoolremix.org/locochoco" target="_blank">ESSAYEZ LOCOCHOCO !</a> ]===============
+>>>>>>>>>>>>>>>>>>>>[ <a href="http://schoolremix.org/locochoco" target="_blank">ESSAYEZ LOCOCHOCO !</a> ]<<<<<<<<<<<<<<<<<<<<
 
 Contact
 =======
