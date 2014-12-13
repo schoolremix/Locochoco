@@ -1,13 +1,13 @@
 Locochoco : la pieuvre des maths
 ================================
 
-Locochoco est un exerciseur de CALCUL MENTAL pour l'école élémentaire. Les objectifs pédagogiques sont tirés des Programmes officiels du Ministère de l'Education Nationale : http://www.education.gouv.fr/cid38/horaires-et-programmes.html
+Locochoco est un exerciseur de CALCUL MENTAL pour l'école élémentaire. Les objectifs pédagogiques sont tirés des <a href="http://www.education.gouv.fr/cid38/horaires-et-programmes.html" target="_blank">Programmes officiels du Ministère de l'Education Nationale</a>.
 
 Essayez Locochoco => http://schoolremix.org/locochoco
 
 Contact
 =======
-Web : http://schoolremix.org | Twitter : http://twitter.com/SchoolRemix
+Web : <a href="http://schoolremix.org" target="_blank">http://schoolremix.org</a> | Twitter : <a href="http://twitter.com/SchoolRemix" target="_blank">http://twitter.com/SchoolRemix</a>
 
 <img src="http://schoolremix.org/locochoco/img/pieuvre.png">
 
@@ -41,5 +41,5 @@ Développements à venir
 
 Licence
 =======
-Locochoco est développé par <a href="http://twitter.com/SchoolRemix">Guillaume R.</a> pour <a href="http://schoolremix.org">School(Re)mix</a>.
+Locochoco est développé par <a href="http://twitter.com/SchoolRemix" target="_blank">Guillaume R.</a> pour <a href="http://schoolremix.org" target="_blank">School(Re)mix</a>.
 Les sources sont proposées sous licence Attribution 4.0 International (CC BY 4.0) http://creativecommons.org/licenses/by/4.0/
