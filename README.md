@@ -42,4 +42,4 @@ Développements à venir
 Licence
 =======
 Locochoco est développé par <a href="http://twitter.com/SchoolRemix" target="_blank">Guillaume R.</a> pour <a href="http://schoolremix.org" target="_blank">School(Re)mix</a>.
-Les sources sont proposées sous licence Attribution 4.0 International (CC BY 4.0) http://creativecommons.org/licenses/by/4.0/
+Les sources sont proposées sous licence <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Attribution 4.0 International (CC BY 4.0)</a>
