@@ -3,6 +3,10 @@ Locochoco : la pieuvre des maths
 
 Locochoco est un exerciseur de CALCUL MENTAL pour l'école élémentaire. Les objectifs pédagogiques sont tirés des Programmes officiels du Ministère de l'Education Nationale : http://www.education.gouv.fr/cid38/horaires-et-programmes.html
 
+Essayez-le => http://schoolremix.org/locochoco
+
+http://schoolremix.org/locochoco/img/pieuvre.png
+
 Paramétrages actuels (version 1.0)
 ==================================
 - Niveau : CE1
