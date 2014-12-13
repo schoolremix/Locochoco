@@ -7,8 +7,7 @@ Essayez Locochoco => http://schoolremix.org/locochoco
 
 Contact
 =======
-Web     : http://schoolremix.org
-Contact : http://twitter.com/SchoolRemix
+Web : http://schoolremix.org | Twitter : http://twitter.com/SchoolRemix
 
 <img src="http://schoolremix.org/locochoco/img/pieuvre.png">
 
