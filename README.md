@@ -5,7 +5,6 @@ Locochoco est un exerciseur de CALCUL MENTAL pour l'école élémentaire. Les ob
 
 Paramétrages actuels (version 1.0)
 ==================================
-
     Niveau : CE1
     Objectif : S'entraîner (tester ses connaissances à un instant t)
     Choix entre 1,2,3,4,5,10 séries pour chaque exercice
@@ -17,7 +16,6 @@ Paramétrages actuels (version 1.0)
 
 Installation
 ============
-
     Bifurquez (fork) ce dépôt
     Clonez-le à la racine de votre serveur web
     Lancez votre navigateur
@@ -27,7 +25,6 @@ Installation
 
 Développements à venir
 ======================
-
     Amélioration du bilan : visibilité du % de réussite, aperçu des progrès, statistiques globales...
     Estimation du temps, chronométrage...
     Gestion pluri-niveaux (CP -> CM2)
@@ -36,5 +33,4 @@ Développements à venir
 
 Licence
 =======
-
 Locochoco est proposé sous licence Attribution 4.0 International (CC BY 4.0) http://creativecommons.org/licenses/by/4.0/
