@@ -41,5 +41,5 @@ Développements à venir
 
 Licence
 =======
-Locochoco est développé par Guillaume R. pour School(Re)mix.
+Locochoco est développé par <a href="http://twitter.com/SchoolRemix">Guillaume R.</a> pour <a href="http://schoolremix.org">School(Re)mix</a>.
 Les sources sont proposées sous licence Attribution 4.0 International (CC BY 4.0) http://creativecommons.org/licenses/by/4.0/
